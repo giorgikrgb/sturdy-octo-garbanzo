@@ -3,8 +3,7 @@ body{margin: 0;
   background: #0d0d8f;
   color: white;
 }
-.item{max: width 200px;px;
-    height: 200px;
+.item{
   background: #1a1a99;
   border: 5px solid;
   display: flex;
@@ -15,7 +14,7 @@ body{margin: 0;
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 120px);
   gap: 20px;
   padding: 20px;
 
