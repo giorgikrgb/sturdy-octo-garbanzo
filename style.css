@@ -37,11 +37,11 @@ grid-template-areas: "lorem culpa . ."
     grid-column: 2/3;
     grid-area: culpa;
 }
-.item mollit{grid-row: 2/3;
+.item mollit{grid-row: 2/4;
     grid: column 2px / 4px;;
     grid-area: mollit;
 }
-.item officia{grid-row: 3/4;
+.item officia{grid-row: 3/5;
     grid-column: 1/2;
     grid-area: officia; 
 }
